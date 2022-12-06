@@ -22,8 +22,10 @@ class LoginViewController: UIViewController, LoginViewInstaller {
     var loginStackView: UIStackView!
     var passwordStackView: UIStackView!
     var loginPasswordStackView: UIStackView!
+    var simpleIndicator: UIActivityIndicatorView!
     
     var viewModel =  LoginViewModel()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,18 +37,32 @@ class LoginViewController: UIViewController, LoginViewInstaller {
     }
 
     @objc func loginTapped() {
+        simpleIndicator.startAnimating()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.simpleIndicator.stopAnimating()
+            self.loginTextField.text = ""
+            self.passwordTextField.text = ""
+        }
         viewModel.userButtonPressed(
             login: loginTextField.text ?? "",
             password: passwordTextField.text ?? ""
         )
+        
+        
     }
     
     func bindViewModel() {
+        
         viewModel.statusText.bind { statusText in
             DispatchQueue.main.async {
                 self.status.text = statusText
             }
         }
+        
+        viewModel.statusColor.bind { statusColor in
+            self.status.textColor = statusColor
+        }
+        
     }
 
 }

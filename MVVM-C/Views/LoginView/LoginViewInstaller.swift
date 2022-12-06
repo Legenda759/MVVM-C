@@ -20,6 +20,7 @@ protocol LoginViewInstaller: ViewInstaller {
     var loginStackView: UIStackView! { get set }
     var passwordStackView: UIStackView! { get set }
     var loginPasswordStackView: UIStackView! { get set }
+    var simpleIndicator: UIActivityIndicatorView! { get set }
 }
 
 extension LoginViewInstaller {
@@ -131,12 +132,16 @@ extension LoginViewInstaller {
         )
         [name, loginPasswordStackView, loginButton].forEach { loginView.addArrangedSubview($0)}
         
+        /// simpleIndicator
+        simpleIndicator = UIActivityIndicatorView.simpleIndicator()
+        
     }
     
     func embedSubviews() {
         mainView.addSubviews(
             loginView,
-            status
+            status,
+            simpleIndicator
         )
     }
 
@@ -159,6 +164,10 @@ extension LoginViewInstaller {
         status.snp.makeConstraints { make in
             make.top.equalTo(loginView.snp.bottom).offset(20)
             make.centerX.equalToSuperview()
+        }
+        
+        simpleIndicator.snp.makeConstraints { make in
+            make.centerX.centerY.equalToSuperview()
         }
         
     }

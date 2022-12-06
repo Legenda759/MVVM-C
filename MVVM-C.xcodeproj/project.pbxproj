@@ -18,11 +18,19 @@
 		9815D04E293A1CCF00B482D7 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815D04D293A1CCF00B482D7 /* Dynamic.swift */; };
 		9815D050293A1EFF00B482D7 /* LoginViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815D04F293A1EFF00B482D7 /* LoginViewInstaller.swift */; };
 		9815D053293A1F3700B482D7 /* ViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815D052293A1F3700B482D7 /* ViewInstaller.swift */; };
+		98481C71293F43C9002DCF96 /* FirstViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98481C70293F43C9002DCF96 /* FirstViewInstaller.swift */; };
+		98481C74293F4F45002DCF96 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98481C73293F4F45002DCF96 /* SecondViewController.swift */; };
+		98481C76293F4F57002DCF96 /* SecondViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98481C75293F4F57002DCF96 /* SecondViewInstaller.swift */; };
+		98481C78293F4F64002DCF96 /* SeconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98481C77293F4F64002DCF96 /* SeconViewModel.swift */; };
 		984D9355293B70FE00C8B702 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984D9354293B70FE00C8B702 /* UIView.swift */; };
 		9867BF00293C7208009F56EB /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9867BEFF293C7208009F56EB /* UILabel.swift */; };
 		98A43C76293D04B6003EAFB3 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C75293D04B6003EAFB3 /* UITextField.swift */; };
 		98A43C78293D06BA003EAFB3 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C77293D06BA003EAFB3 /* UIStackView.swift */; };
 		98A43C7A293D0950003EAFB3 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C79293D0950003EAFB3 /* UIButton.swift */; };
+		98A43C7D293E2DAB003EAFB3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C7C293E2DAB003EAFB3 /* MainCoordinator.swift */; };
+		98A43C80293F1CA5003EAFB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C7F293F1CA5003EAFB3 /* FirstViewController.swift */; };
+		98A43C84293F1D40003EAFB3 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C83293F1D40003EAFB3 /* FirstViewModel.swift */; };
+		98A43C87293F214C003EAFB3 /* UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A43C86293F214C003EAFB3 /* UIActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +47,19 @@
 		9815D04D293A1CCF00B482D7 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		9815D04F293A1EFF00B482D7 /* LoginViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewInstaller.swift; sourceTree = "<group>"; };
 		9815D052293A1F3700B482D7 /* ViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstaller.swift; sourceTree = "<group>"; };
+		98481C70293F43C9002DCF96 /* FirstViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewInstaller.swift; sourceTree = "<group>"; };
+		98481C73293F4F45002DCF96 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		98481C75293F4F57002DCF96 /* SecondViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewInstaller.swift; sourceTree = "<group>"; };
+		98481C77293F4F64002DCF96 /* SeconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconViewModel.swift; sourceTree = "<group>"; };
 		984D9354293B70FE00C8B702 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		9867BEFF293C7208009F56EB /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		98A43C75293D04B6003EAFB3 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		98A43C77293D06BA003EAFB3 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
 		98A43C79293D0950003EAFB3 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		98A43C7C293E2DAB003EAFB3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		98A43C7F293F1CA5003EAFB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		98A43C83293F1D40003EAFB3 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		98A43C86293F214C003EAFB3 /* UIActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorView.swift; sourceTree = "<group>"; };
 		D8428F65DF5DDF1EA202F178 /* Pods_MVVM_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3004B331F4987707F9C868 /* Pods-MVVM-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-C.release.xcconfig"; path = "Target Support Files/Pods-MVVM-C/Pods-MVVM-C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +97,7 @@
 		9815D030293A01B700B482D7 /* MVVM-C */ = {
 			isa = PBXGroup;
 			children = (
+				98A43C7B293E2D92003EAFB3 /* Coordinators */,
 				9815D051293A1F1A00B482D7 /* ViewComponents */,
 				9815D04C293A1CBB00B482D7 /* Bindings */,
 				9815D046293A095A00B482D7 /* Views */,
@@ -107,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				98592987293C964C0095A504 /* LoginView */,
+				98A43C7E293F1C7F003EAFB3 /* FirstView */,
+				98481C72293F4F0E002DCF96 /* SecondView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +146,16 @@
 			path = ViewComponents;
 			sourceTree = "<group>";
 		};
+		98481C72293F4F0E002DCF96 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				98481C73293F4F45002DCF96 /* SecondViewController.swift */,
+				98481C75293F4F57002DCF96 /* SecondViewInstaller.swift */,
+				98481C77293F4F64002DCF96 /* SeconViewModel.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
 		984D9353293B70E700C8B702 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +164,7 @@
 				98A43C75293D04B6003EAFB3 /* UITextField.swift */,
 				98A43C77293D06BA003EAFB3 /* UIStackView.swift */,
 				98A43C79293D0950003EAFB3 /* UIButton.swift */,
+				98A43C86293F214C003EAFB3 /* UIActivityIndicatorView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -147,6 +177,24 @@
 				9815D04A293A19B100B482D7 /* LoginViewModel.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		98A43C7B293E2D92003EAFB3 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				98A43C7C293E2DAB003EAFB3 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		98A43C7E293F1C7F003EAFB3 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				98A43C7F293F1CA5003EAFB3 /* FirstViewController.swift */,
+				98481C70293F43C9002DCF96 /* FirstViewInstaller.swift */,
+				98A43C83293F1D40003EAFB3 /* FirstViewModel.swift */,
+			);
+			path = FirstView;
 			sourceTree = "<group>";
 		};
 		AA2BA2CD5A3D01C344CB958E /* Frameworks */ = {
@@ -281,16 +329,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				9867BF00293C7208009F56EB /* UILabel.swift in Sources */,
+				98A43C87293F214C003EAFB3 /* UIActivityIndicatorView.swift in Sources */,
+				98481C78293F4F64002DCF96 /* SeconViewModel.swift in Sources */,
 				98A43C7A293D0950003EAFB3 /* UIButton.swift in Sources */,
+				98481C74293F4F45002DCF96 /* SecondViewController.swift in Sources */,
 				9815D04B293A19B100B482D7 /* LoginViewModel.swift in Sources */,
 				9815D049293A09E500B482D7 /* User.swift in Sources */,
 				98A43C76293D04B6003EAFB3 /* UITextField.swift in Sources */,
 				9815D050293A1EFF00B482D7 /* LoginViewInstaller.swift in Sources */,
+				98A43C7D293E2DAB003EAFB3 /* MainCoordinator.swift in Sources */,
+				98A43C84293F1D40003EAFB3 /* FirstViewModel.swift in Sources */,
 				9815D036293A01B700B482D7 /* LoginViewController.swift in Sources */,
+				98481C71293F43C9002DCF96 /* FirstViewInstaller.swift in Sources */,
 				9815D04E293A1CCF00B482D7 /* Dynamic.swift in Sources */,
+				98A43C80293F1CA5003EAFB3 /* FirstViewController.swift in Sources */,
 				98A43C78293D06BA003EAFB3 /* UIStackView.swift in Sources */,
 				9815D032293A01B700B482D7 /* AppDelegate.swift in Sources */,
 				9815D034293A01B700B482D7 /* SceneDelegate.swift in Sources */,
+				98481C76293F4F57002DCF96 /* SecondViewInstaller.swift in Sources */,
 				984D9355293B70FE00C8B702 /* UIView.swift in Sources */,
 				9815D053293A1F3700B482D7 /* ViewInstaller.swift in Sources */,
 			);
